@@ -1,5 +1,21 @@
 [
     {
+        "from": "hyperledgerk8s/minio-minio:RELEASE.2023-02-10T18-48-39Z",
+        "to": "kubeagi/minio:RELEASE.2023-02-10T18-48-39Z"
+    },
+    {
+        "from": "hyperledgerk8s/minio-mc:RELEASE.2023-01-28T20-29-38Z",
+        "to": "kubeagi/minio-mc:RELEASE.2023-01-28T20-29-38Z"
+    },
+    {
+        "from": "kubebb/arcadia:v0.0.1",
+        "to": "kubeagi/arcadia:v0.1.0"
+    },
+    {
+        "from": "kubebb/arcadia-fastchat:v0.0.1",
+        "to": "kubeagi/arcadia-fastchat:v0.1.0"
+    },
+    {
         "from": "kubebb/arcadia-fastchat:v0.0.1",
         "to": "kubeagi/arcadia-fastchat:v0.1.0"
     },
