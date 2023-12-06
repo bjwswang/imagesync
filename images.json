@@ -10,5 +10,9 @@
     {
         "from": "kubebb/arcadia-fastchat-worker:vllm-v0.0.1",
         "to": "kubeagi/arcadia-fastchat-worker:vllm-v0.1.0"
+    },
+    {
+        "from": "kubebb/arcadia-data-processing:v0.0.1",
+        "to": "kubeagi/data-processing:v0.1.0"
     }
 ]
