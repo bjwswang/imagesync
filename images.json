@@ -30,5 +30,45 @@
     {
         "from": "kubebb/arcadia-data-processing:v0.0.1",
         "to": "kubeagi/data-processing:v0.1.0"
+    },
+    {
+        "from": "nvcr.io/nvidia/gpu-feature-discovery:v0.8.2-ubi8",
+        "to": "kubeagi/gpu-feature-discovery:v0.8.2-ubi8"
+    },
+    {
+        "from": "nvcr.io/nvidia/k8s/container-toolkit:v1.14.3-ubuntu20.04",
+        "to": "kubeagi/container-toolkit:v1.14.3-ubuntu20.04"
+    },
+    {
+        "from": "nvcr.io/nvidia/k8s/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04",
+        "to": "kubeagi/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04"
+    },
+    {
+        "from": "nvcr.io/nvidia/k8s-device-plugin:v0.14.3-ubi8",
+        "to": "kubeagi/k8s-device-plugin:v0.14.3-ubi8"
+    },
+    {
+        "from": "nvcr.io/nvidia/driver:535.129.03-ubuntu22.04",
+        "to": "kubeagi/driver:535.129.03-ubuntu22.04"
+    },
+    {
+        "from": "nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.6.5",
+        "to": "kubeagi/k8s-driver-manager:v0.6.5"
+    },
+    {
+        "from": "nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.5.5-ubuntu20.04",
+        "to": "kubeagi/k8s-mig-manager:v0.5.5-ubuntu20.04"
+    },
+    {
+        "from": "nvcr.io/nvidia/cloud-native/gpu-operator-validator:v23.9.1",
+        "to": "kubeagi/gpu-operator-validator:v23.9.1"
+    },
+    {
+        "from": "nvcr.io/nvidia/gpu-operator:v23.9.1",
+        "to": "kubeagi/gpu-operator:v23.9.1"
+    },
+    {
+        "from": "nvcr.io/nvidia/node-feature-discovery:v0.14.2",
+        "to": "kubeagi/node-feature-discovery:v0.14.2"
     }
 ]
