@@ -1,6 +1,6 @@
 [
     {
-        "from": "registry.k8s.io/nfd/node-feature-discovery:v0.14.2",
-        "to": "kubeagi/node-feature-discovery:v0.14.2"
+        "from": "nvcr.io/nvidia/pytorch:24.01-py3",
+        "to": "kubeagi/pytorch:24.01-py3"
     }
 ]
