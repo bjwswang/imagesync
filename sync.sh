@@ -4,7 +4,7 @@
 json_data=$(cat images.json)
 
 # Docker Hub username
-username="robot$kubeagi+github"
+username="kubeagi"
 
 
 # Log in to Docker Hub
