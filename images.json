@@ -1,58 +1,6 @@
 [
     {
-        "from": "kubeagi/minio:RELEASE.2023-02-10T18-48-39Z",
-        "to": "registry.kubeagi.com/kubeagi/minio:RELEASE.2023-02-10T18-48-39Z"
-    },
-    {
-        "from": "kubeagi/ray-ml:2.9.0-py39-vllm",
-        "to": "registry.kubeagi.com/kubeagi/ray-ml:2.9.0-py39-vllm"
-    },
-    {
-        "from": "kubeagi/ray-operator:v1.0.0",
-        "to": "registry.kubeagi.com/kubeagi/ray-operator:v1.0.0"
-    },
-    {
-        "from": "kubeagi/gpu-feature-discovery:v0.8.2-ubi8",
-        "to": "registry.kubeagi.com/kubeagi/gpu-feature-discovery:v0.8.2-ubi8"
-    },
-    {
-        "from": "kubeagi/container-toolkit:v1.14.3-ubuntu20.04",
-        "to": "registry.kubeagi.com/kubeagi/container-toolkit:v1.14.3-ubuntu20.04"
-    },
-    {
-        "from": "kubeagi/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04",
-        "to": "registry.kubeagi.com/kubeagi/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04"
-    },
-    {
-        "from": "kubeagi/driver:535.129.03-ubuntu22.04",
-        "to": "registry.kubeagi.com/kubeagi/driver:535.129.03-ubuntu22.04"
-    },
-    {
-        "from": "kubeagi/k8s-driver-manager:v0.6.5",
-        "to": "registry.kubeagi.com/kubeagi/k8s-driver-manager:v0.6.5"
-    },
-    {
-        "from": "kubeagi/k8s-mig-manager:v0.5.5-ubuntu20.04",
-        "to": "registry.kubeagi.com/kubeagi/k8s-mig-manager:v0.5.5-ubuntu20.04"
-    },
-    {
-        "from": "kubeagi/k8s-device-plugin:v0.14.3-ubi8",
-        "to": "registry.kubeagi.com/kubeagi/k8s-device-plugin:v0.14.3-ubi8"
-    },
-    {
-        "from": "kubeagi/gpu-operator-validator:v23.9.1",
-        "to": "registry.kubeagi.com/kubeagi/gpu-operator-validator:v23.9.1"
-    },
-    {
-        "from": "kubeagi/gpu-operator:v23.9.1",
-        "to": "registry.kubeagi.com/kubeagi/gpu-operator:v23.9.1"
-    },
-    {
-        "from": "kubeagi/node-feature-discovery:v0.14.2",
-        "to": "registry.kubeagi.com/kubeagi/node-feature-discovery:v0.14.2"
-    },
-    {
-        "from": "kubeagi/llama-factory:v0.6.1",
-        "to": "registry.kubeagi.com/kubeagi/llama-factory:v0.6.1"
+        "from": "kubeagi/minio-mc:RELEASE.2023-01-28T20-29-38Z",
+        "to": "registry.kubeagi.com/kubeagi/minio-mc:RELEASE.2023-01-28T20-29-38Z"
     }
 ]
