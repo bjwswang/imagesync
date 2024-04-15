@@ -24,5 +24,6 @@ echo "$json_data" | jq -c '.[]' | while IFS= read -r mapping; do
   docker tag "$from_image" "$to_image"
 
   # Push the "to" image to Docker Hub
+  echo "push to $to_image"
   docker push "$to_image"
 done
