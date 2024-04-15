@@ -1,18 +1,18 @@
 [
     {
-        "from": "hub.tenxcloud.com/u4a-component/provisioner-localpv:3.3.0",
+        "from": "openebs/provisioner-localpv:3.3.0",
         "to": "registry.kubeagi.com/kubeagi/openebs-provisioner-localpv:3.3.0"
     },
     {
-        "from": "hub.tenxcloud.com/u4a-component/node-disk-manager:2.0.0",
+        "from": "openebs/node-disk-manager:2.0.0",
         "to": "registry.kubeagi.com/kubeagi/openebs-node-disk-manager:2.0.0"
     },
     {
-        "from": "hub.tenxcloud.com/u4a-component/node-disk-operator:2.0.0",
+        "from": "openebs/node-disk-operator:2.0.0",
         "to": "registry.kubeagi.com/kubeagi/openebs-node-disk-operator:2.0.0"
     },
     {
-        "from": "hub.tenxcloud.com/u4a-component/linux-utils:3.3.0",
+        "from": "openebs/linux-utils:3.3.0",
         "to": "registry.kubeagi.com/kubeagi/openebs-linux-utils:3.3.0"
     },
     {
