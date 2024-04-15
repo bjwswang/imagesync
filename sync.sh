@@ -4,7 +4,7 @@
 json_data=$(cat images.json)
 
 # Docker Hub username
-username="kubeagi"
+username="bjwswang"
 
 
 # Log in to Docker Hub
