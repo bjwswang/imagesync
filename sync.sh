@@ -8,7 +8,7 @@ username="kubeagi"
 
 
 # Log in to Docker Hub
-echo "$DOCKER_TOKEN" | docker login -u "$username" --password-stdin
+echo "$DOCKER_TOKEN" | docker login registry.kubeagi.com -u "$username" --password-stdin
 
 # Iterate over each image mapping
 echo "$json_data" | jq -c '.[]' | while IFS= read -r mapping; do
