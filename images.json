@@ -1,6 +1,166 @@
 [
     {
-        "from": "kubeagi/minio-mc:RELEASE.2023-01-28T20-29-38Z",
-        "to": "registry.kubeagi.com/kubeagi/minio-mc:RELEASE.2023-01-28T20-29-38Z"
+        "from": "openebs/provisioner-localpv:3.3.0",
+        "to": "registry.kubeagi.com/kubeagi/openebs-provisioner-localpv:3.3.0"
+    },
+    {
+        "from": "openebs/node-disk-manager:2.0.0",
+        "to": "registry.kubeagi.com/kubeagi/openebs-node-disk-manager:2.0.0"
+    },
+    {
+        "from": "openebs/node-disk-operator:2.0.0",
+        "to": "registry.kubeagi.com/kubeagi/openebs-node-disk-operator:2.0.0"
+    },
+    {
+        "from": "openebs/linux-utils:3.3.0",
+        "to": "registry.kubeagi.com/kubeagi/openebs-linux-utils:3.3.0"
+    },
+    {
+        "from": "kubebb/ingress-nginx-controller:v1.3.0",
+        "to": "registry.kubeagi.com/kubeagi/ingress-nginx-controller:v1.3.0"
+    },
+    {
+        "from": "kubebb/cert-manager-controller:v1.8.0",
+        "to": "registry.kubeagi.com/kubeagi/cert-manager-controller:v1.8.0"
+    },
+    {
+        "from": "kubebb/cert-manager-cainjector:v1.8.0",
+        "to": "registry.kubeagi.com/kubeagi/cert-manager-cainjector:v1.8.0"
+    },
+    {
+        "from": "kubebb/cert-manager-webhook:v1.8.0",
+        "to": "registry.kubeagi.com/kubeagi/cert-manager-webhook:v1.8.0"
+    },
+    {
+        "from": "kubebb/iam-provider:v0.2.0-20240128",
+        "to": "registry.kubeagi.com/kubeagi/iam-provider:v0.2.0-20240128"
+    },
+    {
+        "from": "kubebb/iam-controller:v0.2.0-20240128",
+        "to": "registry.kubeagi.com/kubeagi/iam-controller:v0.2.0-20240128"
+    },
+    {
+        "from": "kubebb/oidc-server:v0.2.0",
+        "to": "registry.kubeagi.com/kubeagi/oidc-server:v0.2.0"
+    },
+    {
+        "from": "kubebb/bff-server:v0.2.0-20231204",
+        "to": "registry.kubeagi.com/kubeagi/bff-server:v0.2.0-20231204"
+    },
+    {
+        "from": "kubebb/redis:5.0.1-alpine3.8",
+        "to": "registry.kubeagi.com/kubeagi/redis:5.0.1-alpine3.8"
+    },
+    {
+        "from": "kubebb/resource-viewer:v0.2.0",
+        "to": "registry.kubeagi.com/kubeagi/resource-viewer:v0.2.0"
+    },
+    {
+        "from": "kubebb/capsule-ce:v0.1.2-20221122",
+        "to": "registry.kubeagi.com/kubeagi/capsule-ce:v0.1.2-20221122"
+    },
+    {
+        "from": "kubebb/kube-oidc-proxy-ce:v0.3.0-20221008",
+        "to": "registry.kubeagi.com/kubeagi/kube-oidc-proxy-ce:v0.3.0-20221008"
+    },
+    {
+        "from": "kubebb/core:v0.1.6-20240312-69a0af9",
+        "to": "registry.kubeagi.com/kubeagi/core:v0.1.6-20240312-69a0af9"
+    },
+    {
+        "from": "kubeagi/arcadia:v0.2.2",
+        "to": "registry.kubeagi.com/kubeagi/arcadia:v0.2.2"
+    },
+    {
+        "from": "kubeagi/data-processing:v0.2.2",
+        "to": "registry.kubeagi.com/kubeagi/data-processing:v0.2.2"
+    },
+    {
+        "from": "kubeagi/arcadia-eval:v0.2.2",
+        "to": "registry.kubeagi.com/kubeagi/arcadia-eval:v0.2.2"
+    },
+    {
+        "from": "kubeagi/ops-console:v0.2.2",
+        "to": "registry.kubeagi.com/kubeagi/ops-console:v0.2.2"
+    },
+    {
+        "from": "kubeagi/agent-portal:v0.1.0-20240411-e26a310",
+        "to": "registry.kubeagi.com/kubeagi/agent-portal:v0.1.0-20240411-e26a310"
+    },
+    {
+        "from": "kubeagi/streamlit:v1.29.0",
+        "to": "registry.kubeagi.com/kubeagi/streamlit:v1.29.0"
+    },
+    {
+        "from": "kubeagi/arcadia-fastchat:v0.2.36-patch",
+        "to": "registry.kubeagi.com/kubeagi/arcadia-fastchat:v0.2.36-patch"
+    },
+    {
+        "from": "kubeagi/arcadia-fastchat-worker:v0.2.36",
+        "to": "registry.kubeagi.com/kubeagi/arcadia-fastchat-worker:v0.2.36"
+    },
+    {
+        "from": "kubeagi/postgresql:16.1.0-debian-11-r18-pgvector-v0.5.1",
+        "to": "registry.kubeagi.com/kubeagi/postgresql:16.1.0-debian-11-r18-pgvector-v0.5.1"
+    },
+    {
+        "from": "kubeagi/minio-mc:RELEASE.2023-01-28T20-08-01T05-08-07Z",
+        "to": "registry.kubeagi.com/kubeagi/minio-mc:RELEASE.2023-01-28T20-08-01T05-08-07Z"
+    },
+    {
+        "from": "kubeagi/minio:RELEASE.2023-02-10T18-48-39Z",
+        "to": "registry.kubeagi.com/kubeagi/minio:RELEASE.2023-02-10T18-48-39Z"
+    },
+    {
+        "from": "kubeagi/ray-ml:2.9.0-py39-vllm",
+        "to": "registry.kubeagi.com/kubeagi/ray-ml:2.9.0-py39-vllm"
+    },
+    {
+        "from": "kubeagi/ray-operator:v1.0.0",
+        "to": "registry.kubeagi.com/kubeagi/ray-operator:v1.0.0"
+    },
+    {
+        "from": "kubeagi/gpu-feature-discovery:v0.8.2-ubi8",
+        "to": "registry.kubeagi.com/kubeagi/gpu-feature-discovery:v0.8.2-ubi8"
+    },
+    {
+        "from": "kubeagi/container-toolkit:v1.14.3-ubuntu20.04",
+        "to": "registry.kubeagi.com/kubeagi/container-toolkit:v1.14.3-ubuntu20.04"
+    },
+    {
+        "from": "kubeagi/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04",
+        "to": "registry.kubeagi.com/kubeagi/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04"
+    },
+    {
+        "from": "kubeagi/driver:535.129.03-ubuntu22.04",
+        "to": "registry.kubeagi.com/kubeagi/driver:535.129.03-ubuntu22.04"
+    },
+    {
+        "from": "kubeagi/k8s-driver-manager:v0.6.5",
+        "to": "registry.kubeagi.com/kubeagi/k8s-driver-manager:v0.6.5"
+    },
+    {
+        "from": "kubeagi/k8s-mig-manager:v0.5.5-ubuntu20.04",
+        "to": "registry.kubeagi.com/kubeagi/k8s-mig-manager:v0.5.5-ubuntu20.04"
+    },
+    {
+        "from": "kubeagi/k8s-device-plugin:v0.14.3-ubi8",
+        "to": "registry.kubeagi.com/kubeagi/k8s-device-plugin:v0.14.3-ubi8"
+    },
+    {
+        "from": "kubeagi/gpu-operator-validator:v23.9.1",
+        "to": "registry.kubeagi.com/kubeagi/gpu-operator-validator:v23.9.1"
+    },
+    {
+        "from": "kubeagi/gpu-operator:v23.9.1",
+        "to": "registry.kubeagi.com/kubeagi/gpu-operator:v23.9.1"
+    },
+    {
+        "from": "kubeagi/node-feature-discovery:v0.14.2",
+        "to": "registry.kubeagi.com/kubeagi/node-feature-discovery:v0.14.2"
+    },
+    {
+        "from": "kubeagi/llama-factory:v0.6.1",
+        "to": "registry.kubeagi.com/kubeagi/llama-factory:v0.6.1"
     }
 ]
